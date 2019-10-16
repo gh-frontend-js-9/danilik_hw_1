@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>homewrok-1-2</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>Урок "Формы": туги и их атрибуты</h1>
+    <h2>Расскажите немного о себе...</h2>
+    <p>Попробуйте создать аналогичную форму. для целей демонстрации вполне подойдут и вымышленные.</p>
+    <form action="" class="form1">
+
+        <fieldset>
+
+            <legend>Коротко о себе:</legend>
+            <label for="firstName">Имя: </label><input type="text" value="Yaroslav" id="firstName"><br>
+            <label for="lastName">Фамилия: </label><input type="text" value="Danilik" id="lastName"><br>
+            Пол:<input type="radio" name="sex" checked >мужской
+                <input type="radio" name="sex">женский<br>
+            <label for="yearsOld">Возвраст </label><input type="number" id="yearsOld" value="20"> лет
+
+        </fieldset>
+        <fieldset>
+
+            <legend>Подробнее о себе</legend>
+            <input type="radio" checked name="gender">Молодой человек <br>
+            <input type="radio" name="gender">Девушка <br>
+            <input type="text"> Дата рождения <br>
+            <input type="text"> Семейное положение <br>
+            <input type="text"> Социальный статус <br>
+            <input type="text"> Местоположение 
+
+            <h4>Что вы обычно делаете на выходных:</h4>
+
+            <input type="checkbox"> Сплю <br>
+            <input type="checkbox"> Гуляю с друзьями <br>
+            <input type="checkbox"> Хожу на рыбалку <br>
+            <input type="checkbox"> Играю в игры <br>
+
+            <h4>Расскажите о формах и книге, посвященной HTML:</h4>
+
+            <select name="" id="">
+                <option value="">Site qrequency:</option>
+                <option value="">Site qrequency:</option>
+                <option value="">Site qrequency:</option>
+            </select>
+            <h4>Сколько книг вы прочитали за свою жизнь:</h4>
+            <input type="radio" name="books"> 0-10 <br>
+            <input type="radio" name="books"> 11-20 <br>
+            <input type="radio" name="books"> 21-50 <br>
+            <input type="radio" name="books"> 50+ <br>
+
+            <h4>Ваши комментарии:</h4>
+            <textarea name="" id="" cols="50" rows="10"></textarea><br>
+            <select name="" id="" multiple="multiple">
+                <option value="">Первая позиция</option>
+                <option value="">Вторая позиция</option>
+                <option value="">Третяя позиция</option>
+            </select>
+        </fieldset>
+        <fieldset>
+
+            <legend>И в заключении</legend>
+            <input type="text" placeholder="Это поле было введено до вас"><br>
+        <label for="email">Email:</label><br>
+        <input type="email" id="email">
+            <h4>Хотите подписаться гна самую модную рассылку спама?</h4>
+            <p><i>Выберите категории</i></p>
+            <input type="checkbox">Оборудование <br>
+            <input type="checkbox"> Как приготовить обеды <br>
+            <input type="checkbox"> Заработай миллион за два дня! <br>
+            <h4>На сколько сложная задача:</h4>
+            <input type="radio" checked name="hard"> Совсем нет <br>
+            <input type="radio" name="hard"> Так себе <br>
+            <input type="radio" name="hard"> Еле справился <br>
+        </fieldset>
+        <button>Отправить</button>
+
+    </form>
+
+</body>
+</html>

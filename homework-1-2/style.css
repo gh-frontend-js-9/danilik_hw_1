@@ -1,0 +1,17 @@
+body {
+width: 700px;
+margin: 0 auto;
+}
+
+input {
+
+}
+
+fieldset {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+button {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
